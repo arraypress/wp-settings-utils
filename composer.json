@@ -1,0 +1,45 @@
+{
+  "name": "arraypress/wp-settings-utils",
+  "version": "1.0.0",
+  "description": "A flexible WordPress settings manager with caching, dot notation, and smart defaults for plugin development.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/wp-settings-utils",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\SettingsUtils\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/arraypress/wp-settings-utils/issues",
+    "source": "https://github.com/arraypress/wp-settings-utils"
+  },
+  "keywords": [
+    "wordpress",
+    "wp",
+    "settings",
+    "options",
+    "configuration",
+    "manager",
+    "cache",
+    "dot-notation",
+    "plugin-settings",
+    "arraypress"
+  ]
+}
